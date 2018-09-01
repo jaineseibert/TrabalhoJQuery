@@ -1,0 +1,178 @@
+
+.topo_pagina{
+  background-color:#ff7c28;  
+}
+
+.topo_pagina2{
+  position:none;top:50px;left:50px;width:450px;height:62px;z-index:0;font-size:16px;color:#000000;line-height:24px;text-align:left;padding:5px;box-sizing:border-box;
+}
+
+#toTop {
+  width:100px;
+  border:1px solid #ccc;
+  background:#000000;
+  text-align:center;
+  padding:5px;
+  position:fixed; /* this is the magic */
+  bottom:10px; /* together with this to put the div at the bottom*/
+  right:10px;
+  display: none;
+  cursor:pointer;
+  color:#ccc;
+  font-family:AvenirNextRegular,verdana;
+  font-size:11px;
+  opacity: 0.4;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+#menu {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: left;
+}
+#menu > ul {
+  width: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+#menu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */
+
+}
+#menu > ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#menu > ul li.right {
+  float: right;
+}
+#menu > ul li.has-sub {
+  position: relative;
+}
+#menu > ul li.has-sub:hover ul {
+  display: block;
+}
+#menu > ul li.has-sub ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  border-top: 0 none;
+}
+#menu > ul li.has-sub ul li {
+  display: block;
+}
+#menu > ul li.has-sub > a {
+  background-image: url('images/caret.png');
+  background-repeat: no-repeat;
+  background-position: 90% -95%;
+}
+#menu > ul li.has-sub > a.active,
+#menu > ul li.has-sub > a:hover {
+  background: #d80041 url('images/caret.png') no-repeat;
+  background-position: 90% 195%;
+}
+#menu > ul li a {
+  display: block;
+  padding: 12px 24px 11px 24px;
+  text-decoration: none;
+  color: #747474;
+  text-shadow: 0px 1px 0px #fff;
+}
+#menu > ul li a.active,
+#menu > ul li a:hover {
+  background: #d80041;
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+}
+@media (max-width: 600px) {
+  #menu > ul {
+    width: 100%;
+  }
+  #menu > ul li#responsive-tab {
+    display: block;
+  }
+  #menu > ul li#responsive-tab a {
+    background: url('images/menu.png') no-repeat;
+    background-position: 95% -35%;
+  }
+  #menu > ul li#responsive-tab a:hover {
+    background-color: #d80041;
+    background-position: 95% 135%;
+  }
+  #menu > ul li {
+    display: none;
+  }
+  #menu > ul li.right {
+    float: none;
+  }
+  #menu > ul li.has-sub {
+    position: relative;
+  }
+  #menu > ul li.has-sub ul {
+    display: block;
+    position: static;
+    width: 100%;
+    background: #ffffff;
+    border: 0 none;
+  }
+  #menu > ul li.has-sub ul li {
+    display: block !important;
+  }
+  #menu > ul li.has-sub ul li a span {
+    display: block;
+    padding-left: 24px;
+  }
+  #menu > ul li.has-sub > a {
+    background-image: none;
+  }
+}
+/* Make sure they show even if hidden in mobile view by JS */
+@media (min-width: 600px) {
+  #menu > ul > li.collapsed {
+    display: inline-block !important;
+    *display: inline;
+    zoom: 1;
+  }
+  #menu > ul ul li.collapsed {
+    display: block !important;
+  }
+}
+
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+          animation-name: jssorl-009-spin;
+          animation-duration: 1.6s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+      }
+
+      @keyframes jssorl-009-spin {
+          from {
+              transform: rotate(0deg);
+          }
+
+          to {
+              transform: rotate(360deg);
+          }
+      }
+
+
+      

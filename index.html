@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trabalho JQuery</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/main.css" media="screen">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/vendor/jquery.easing.1.3.js"></script>
+    <script src="src/core.js"></script>
+    <script src="src/effects/fade.js"></script>
+    <script src="src/controls/pagination.js"></script>
+    <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/settings.js"></script>
+    <script type="text/javascript" src="js/flipgallery.min.js"></script>
+
+    <script src="js/jquery.1.9.0.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.prmenu.min.js"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+    <script src="js/jquery.inputmask.bundle.js"></script>
+    <script src="js/controles.js" type="text/javascript"></script>
+    <script src="js/jquery.timepicker.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/pikaday.js"></script>
+    <script src="js/jquery.ptTimeSelect.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/datepair.js"></script>
+    <script src="js/jquery.datepair.js"></script>
+    <script src="js/jquery.validate.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.timepicker.css" />
+    <link rel="stylesheet" type="text/css" href="css/datepicker.standalone.css" />
+    <link rel="stylesheet" type="text/css" href="css/pikaday.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.ptTimeSelect.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/blueimp-gallery.css">
+    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
+    <link rel="stylesheet" href="css/blueimp-gallery-video.css">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+    <link href="css/prmenu.css" rel="stylesheet" type="text/css" />
+    <link href="css/slick.css" rel="stylesheet" type="text/css" />
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css" />
+    <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
+
+    <script type='text/javascript' src='unitegallery/js/ug-common-libraries.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-functions.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-thumbsgeneral.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-thumbsstrip.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-touchthumbs.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-panelsbase.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-strippanel.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-gridpanel.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-thumbsgrid.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-tiles.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-tiledesign.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-avia.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-slider.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-sliderassets.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-touchslider.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-zoomslider.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-video.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-gallery.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-lightbox.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-carousel.js'></script>
+    <script type='text/javascript' src='unitegallery/js/ug-api.js'></script>
+
+    <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+
+    <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
+    <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
+    <script type="text/javascript">
+
+        jQuery(document).ready(function () {
+
+            jQuery("#gallery").unitegallery();
+
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <div class='topo_pagina'>
+        <div class="topo_pagina2">
+
+        </div>
+    </div>
+    <div id='menu' style="position: relative;z-index:10">
+        <ul>
+            <li class='first'>
+                <a href='#'>
+                    <span>Início</span>
+                </a>
+            </li>
+            <li class='has-sub'>
+                <a href='#'>
+                    <span>Produtos</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href='#'>
+                            <span>Perecíveis</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <span>Não-Perecíveis</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class='has-sub'>
+                <a href='#'>
+                    <span>Cadastro</span>
+                </a>
+            </li>
+            <li class='last'>
+                <a href='#'>
+                    <span>Quem somos</span>
+                </a>
+            </li>
+            <li class='last'>
+                <a href='#'>
+                    <span>Contato</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container" style="z-index:1">
+        <div id="sandbox">
+            <ul id="moodular">
+                <li>
+                    <p style="background-image: url(assets/img/photo01.jpg);">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et quam ultricies arcu eleifend lacinia.
+                            Duis risus nulla, bibendum a euismod at, malesuada at justo. Nullam suscipit commodo pellentesque.
+                            Integer feugiat, orci sed tempor volutpat, ante ligula dignissim neque, sagittis egestas leo
+                            eros congue libero. Ut vulputate magna quis neque vehicula faucibus. Praesent a mauris felis,
+                            vitae pretium mauris. Vivamus iaculis dapibus est, ac convallis nisi facilisis at. Sed volutpat
+                            rutrum malesuada.</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="background-image: url(assets/img/photo02.jpg);">
+                        <span>Quisque quis ante in quam malesuada gravida vel bibendum lorem. Praesent pellentesque blandit dui,
+                            eget rutrum odio molestie non. Mauris dictum diam congue nisi tincidunt vestibulum. Etiam egestas
+                            leo nec diam iaculis suscipit. Nullam semper sagittis lorem et convallis. Fusce massa tellus,
+                            rutrum et hendrerit eget, varius ac tellus. Maecenas semper urna vel nunc interdum vitae dictum
+                            justo ullamcorper. Ut vel magna scelerisque massa ullamcorper posuere. Cum sociis natoque penatibus
+                            et magnis dis parturient montes, nascetur ridiculus mus.</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="background-image: url(assets/img/photo03.jpg);">
+                        <span>Proin rhoncus lectus quis odio ornare id tempus lectus bibendum. Vivamus luctus orci vel diam feugiat
+                            non tincidunt eros varius. Pellentesque viverra, tortor ut varius ultricies, felis leo laoreet
+                            dolor, et fermentum diam orci vitae libero. Nunc arcu metus, tempus id varius sed, suscipit ultrices
+                            turpis. Nullam ac pellentesque risus. Sed vehicula magna at velit varius a congue orci feugiat.
+                            Proin non venenatis nunc. Phasellus blandit vehicula dolor vitae euismod. Maecenas vitae lectus
+                            felis. Aliquam faucibus fringilla tincidunt. Suspendisse enim nisi, suscipit iaculis dignissim
+                            nec, ultrices ac augue.</span>
+                </li>
+                <li>
+                    <p style="background-image: url(assets/img/photo04.jpg);">
+                        <span>Phasellus pretium magna at neque molestie adipiscing. Fusce felis turpis, porttitor ac pellentesque
+                            ut, vulputate at nisi. Etiam pharetra rhoncus aliquam. Duis libero arcu, tempus eget adipiscing
+                            quis, tempor vitae turpis. Quisque volutpat, diam sed consequat vehicula, lorem nisl consectetur
+                            dui, ut lacinia orci ipsum id arcu. Donec augue dui, dapibus non imperdiet eu, dictum in nulla.
+                            Integer in vehicula odio. Maecenas quis enim vitae augue lacinia scelerisque. Vivamus ullamcorper
+                            aliquet est aliquet faucibus. Aliquam fringilla, erat vitae faucibus viverra, odio sem blandit
+                            lectus, ac fringilla eros velit nec risus. Donec eu mi sed neque mattis suscipit. Cum sociis
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="background-image: url(assets/img/photo05.jpg);">
+                        <span>Phasellus ante urna, pharetra consectetur hendrerit eget, rutrum cursus urna. Sed convallis, nisi
+                            sit amet feugiat rhoncus, nulla diam consequat arcu, et fringilla elit augue nec enim. Maecenas
+                            ac nibh neque, ut malesuada leo. In interdum quam hendrerit orci euismod euismod. Nunc vitae
+                            lacinia ipsum. Nullam justo urna, ultrices id placerat quis, feugiat in tortor. Ut tincidunt
+                            viverra nisl, eu aliquet eros suscipit fringilla. Phasellus vitae elementum odio. Fusce magna
+                            tellus, luctus faucibus auctor ut, dapibus vel eros. Fusce malesuada lorem eu massa lobortis
+                            non auctor ligula mollis. Donec vitae pretium nisi. Ut vehicula dolor eget arcu laoreet ultricies
+                            congue dui porttitor. Vivamus a nibh odio, sit amet pharetra leo. Donec eget tellus vitae nisl
+                            dapibus interdum.</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="background-image: url(assets/img/photo06.jpg);">
+                        <span>Vestibulum consectetur, urna vel laoreet auctor, turpis erat congue eros, vitae mollis enim dui ut
+                            lectus. Praesent semper sagittis tellus, at facilisis risus ornare ut. Mauris venenatis fermentum
+                            tempus. Proin malesuada laoreet odio, ac vulputate mi faucibus sed. Quisque rutrum accumsan mi,
+                            non pretium est lacinia dapibus. Etiam leo dui, pharetra in porta sit amet, ullamcorper a augue.
+                            Quisque vehicula quam quis arcu blandit et ullamcorper diam imperdiet. Duis venenatis pretium
+                            mi, ut ornare diam luctus a. In vel purus et risus venenatis facilisis vel eget nunc. Sed ac
+                            erat ante. Ut ullamcorper sodales turpis. Morbi sagittis ornare velit eu bibendum. Nulla facilisi.
+                            Cras odio nibh, tincidunt ac feugiat quis, laoreet sed diam. Curabitur ullamcorper eleifend tellus.</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="conteudo" style="text-align: center">
+        <form id="formulario" method="post" action="">
+            <label for="nome">Nome:</label>
+            <br/>
+            <input type="text" id="nome" name="nome" />
+            <br/>
+            <label for="email">Email:</label>
+            <br/>
+            <input type="text" id="email" name="email" data-rule-required="true" />
+            <br/>
+            <label for="telefone">Telefone:</label>
+            <br/>
+            <input type="text" id="telefone" name="telefone" data-rule-required="true" />
+            <br/>
+            <label for="datepicker">Data nascimento:</label>
+            <br/>
+            <input type="text" id="datepicker" class="date" name="data_nascimento" />
+            <br />
+            <label for="estado">Estado:</label>
+            <br/>
+            <select id="estado"></select>
+            <br/>
+            <label for="cidade">Cidade:</label>
+            <br/>
+            <select id="cidade"></select>
+            <br/>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <br>
+    <br>
+
+    <div id="gallery" style="display:none;margin: 0 auto; width: 100%;">
+
+        <img alt="Preview Image 1" src="images/thumbs/thumb1.jpg" data-image="images/big/image1.jpg" data-description="Preview Image 1 Description">
+
+        <img alt="Preview Image 2" src="images/thumbs/thumb2.jpg" data-image="images/big/image2.jpg" data-description="Preview Image 2 Description">
+
+        <img alt="Youtube Video" data-type="youtube" data-videoid="A3PDXmYoF5U" data-description="You can include youtube videos easily!">
+
+        <img alt="Preview Image 3" src="images/thumbs/thumb3.jpg" data-image="images/big/image3.jpg" data-description="Preview Image 3 Description">
+
+        <img alt="Vimeo Video" data-type="vimeo" src="http://i.vimeocdn.com/video/447294219_200x150.jpg" data-image="http://i.vimeocdn.com/video/447294219_640.jpg"
+            data-videoid="73234449" data-description="This gallery can also play vimeo videos!">
+
+        <img alt="Preview Image 4" src="images/thumbs/thumb4.jpg" data-image="images/big/image4.jpg" data-description="Preview Image 4 Description">
+
+        <img alt="Html5 Video" src="images/thumbs/html5_video.png" data-type="html5video" data-image="http://video-js.zencoder.com/oceans-clip.png"
+            data-videoogv="http://video-js.zencoder.com/oceans-clip.ogv" data-videowebm="http://video-js.zencoder.com/oceans-clip.webm"
+            data-videomp4="http://video-js.zencoder.com/oceans-clip.mp4" data-description="This is html5 video demo played by mediaelement2 player">
+
+        <img alt="Preview Image 5" src="images/thumbs/thumb1.jpg" data-image="images/big/image1.jpg" data-description="Preview Image 5 Description">
+
+        <img alt="Wistia Video" src="images/thumbs/wistia_video.jpg" data-type="wistia" data-image="images/big/wistia_video.jpg"
+            data-videoid="9oedgxuciv" data-description="Hey, the gallery plays Wistia videos too!">
+
+        <img alt="Preview Image 6" src="images/thumbs/thumb2.jpg" data-image="images/big/image2.jpg" data-description="Preview Image 6 Description">
+
+
+        <img alt="Sound Cloud Track" src="images/thumbs/sound_cloud.jpg" data-type="soundcloud" data-image="images/thumbs/sound_cloud.jpg"
+            data-trackid="8390970" data-description="This gallery can play a soundcloud track">
+
+
+        <img alt="Preview Image 7" src="images/thumbs/thumb3.jpg" data-image="images/big/image3.jpg" data-description="Preview Image 7 Description">
+
+
+        <img alt="Preview Image 8" src="images/thumbs/thumb4.jpg" data-image="images/big/image4.jpg" data-description="Preview Image 8 Description">
+
+        <img alt="Preview Image 9" src="images/thumbs/thumb1.jpg" data-image="images/big/image1.jpg" data-description="Preview Image 9 Description">
+
+        <img alt="Preview Image 10" src="images/thumbs/thumb2.jpg" data-image="images/big/image2.jpg" data-description="Preview Image 10 Description">
+
+        <img alt="Preview Image 11" src="images/thumbs/thumb3.jpg" data-image="images/big/image3.jpg" data-description="Preview Image 11 Description">
+
+    </div>
+</body>
+
+<footer>
+    <div id="toTop">&uarr;Voltar ao Topo</div>
+
+
+</footer>
+
+</html>
